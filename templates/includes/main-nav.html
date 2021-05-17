@@ -22,12 +22,12 @@
                 Machine Equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Tractors</a>
-                <a href="" class="dropdown-item">Planter</a>
-                <a href="" class="dropdown-item">Harvester</a>
-                <a href="" class="dropdown-item">Tillers</a>
-                <a href="" class="dropdown-item">Applicators &amp; Sprayers </a>
-                <a href="" class="dropdown-item">All Equipment</a>
+                <a href="{% url 'products' %}?category=tractors" class="dropdown-item">Tractors</a>
+                <a href="{% url 'products' %}?category=planter" class="dropdown-item">Planters</a>
+                <a href="{% url 'products' %}?category=harvester" class="dropdown-item">Harvesters</a>
+                <a href="{% url 'products' %}?category=tillers" class="dropdown-item">Tillers</a>
+                <a href="{% url 'products' %}?category=applicator_sprayers" class="dropdown-item">Applicators &amp; Sprayers </a>
+                <a href="{% url 'products' %}?category=tractors,planter,harvester,tillers,applicator_sprayers" class="dropdown-item">All Equipment</a>
             </div>
         </li>
 
@@ -36,9 +36,9 @@
                 Farm Implements
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Machine Implements</a>
-                <a href="" class="dropdown-item">Hand Tools</a>
-                <a href="" class="dropdown-item">All Implements</a>
+                <a href="{% url 'products' %}?category=machine_implements" class="dropdown-item">Machine Implements</a>
+                <a href="{% url 'products' %}?category=hand_tools" class="dropdown-item">Hand Tools</a>
+                <a href="{% url 'products' %}?category=hand_tools,machine_implements" class="dropdown-item">All Implements</a>
             </div>
         </li>
 
@@ -47,10 +47,10 @@
                 Miscelaneuous
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Recycled products</a>
-                <a href="" class="dropdown-item">Shirts</a>
-                <a href="" class="dropdown-item">Jeans</a>
-                <a href="" class="dropdown-item">All miscellaneous</a>
+                <a href="{% url 'products' %}?category=recycled_products" class="dropdown-item">Recycled products</a>
+                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
+                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
+                <a href="{% url 'products' %}?category=recycled_products,shirts,jeans" class="dropdown-item">All miscellaneous</a>
             </div>
         </li>
     </ul>
