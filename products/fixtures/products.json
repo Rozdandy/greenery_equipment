@@ -1,0 +1,572 @@
+[
+  {
+      "pk": 1, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000001t", 
+          "name": "Hydrostatic Drive Compact Utility Tractors ", 
+          "description": "The T394HST, introduced June 2016, is the newest addition to TYM’s popular subcompact tractor line. It is a testament to TYM’s commitment to quality and performance. This little powerhouse is loaded with big tractor features with value and economy in mind. Its powerful Tier 4, 37.4 gross horsepower Yanmar diesel engine, hydrostatic transmission, wet disc brakes, independent PTO and 2,645 hitch-lift capacity, give this tractor a versatility beyond ordinary subcompact machines, the company says.", 
+          "price": 970.99, 
+          "category": 1, 
+          "rating": 4.6, 
+          "image_url": " https://www.farm-equipment.com/ext/resources/images/EWatch/2016/07-05/T394_HST_web-1-2.png ", 
+          "image": "t001.jpg", 
+          "manufacturer": "TYM Tractors"
+      }
+  }, 
+  {
+      "pk": 2, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000002t", 
+          "name": "Steiner 450 Tractor", 
+          "description": "The Steiner 450 tractor boasts an articulating frame, giving it a tight turning radius of 43.5 inches. The frame also oscillates, keeping the operator upright and in control even on the most uneven terrains. With plenty of power, excellent traction, a low center of gravity and wide stance, the 450 is built for maintaining hill terrain and operating where other tractors typically cannot.", 
+          "price": 760.99, 
+          "category": 1, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0117/Steiner-450-copy.png?t=1485381344&width=1080", 
+          "image": " 002t-Steiner-450.jpg.", 
+          "manufacturer": "Steiner Tractors"
+      }
+  }, 
+  {
+      "pk": 3, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000003t", 
+          "name": "Fendt 1000 Vario", 
+          "description": "The 1000 Vario Tractors feature the revolutionary Fendt iD high-torque, low-engine-speed concept, combining a 12.4 liter, six-cylinder engine with the next generation Fendt Vario transmission. The VarioDrive drivetrain allows intelligent four-wheel management. They offer superior operator comfort and convenience along with intelligent connectivity.", 
+          "price": 900.99, 
+          "category": 1, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0217/AGCO_Fendt_1000_021017-copy1.png?t=1486763661&width=1080", 
+          "image": "003t-AGCO_Fendt_1000_021017.jpg", 
+          "manufacturer": "Fendt Tractors"
+      }
+  }, 
+  {
+      "pk": 4, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000004t", 
+          "name": "Zetor Major HS 65 Tractor", 
+          "description": "The heart of Zetor's Major HT Tractor is a Tier 4 Final, 43 horsepower, four-cylinder engine. Hydrostatic transmission with three stages can be easily controlled by the operator through two gas and one brake pedal. The maximum speed is 17.7 mph.", 
+          "price": 686.99, 
+          "category": 1, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2019/Feb-2019/ZETOR-MAJOR-HS-65_0219-copy.jpg?t=1550612010&width=1080", 
+          "image": "004t-ZETOR-MAJOR-HS-65_0219.jpg", 
+          "manufacturer": "Zetor's Tractor"
+      }
+  }, 
+  {
+      "pk": 5, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000005t", 
+          "name": "Kubota's M8 Series Tractor", 
+          "description": " Kubota's M8 Series Tractor is purpose-built for comfort, power and simplicity. A variety of applications are available with easy to use and conveniently located controls. The cab boasts an 148 cubic feet of space, and every inch is designed to deliver a superior operational experience. Ample sound insulation and premium seating provide a comfortable environment and is designed to mitigate operator fatigue during long days and nights in the field. The tractor’s cab was designed around the concept of 'an office with a view' and includes various seat and operator comfort options, all-weather climate control, an ergonomically designed multi-function command center and excellent visibility.", 
+          "price": 890.99, 
+          "category": 1, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2019/November-2019/Kubota-M8-Series-Tractor_1119-copy.jpg?t=1574358454&width=1080 ", 
+          "image": " 005t-Kubota-M8-Series-Tractor_1119.jpg", 
+          "manufacturer": "Kubota's Tractor"
+      }
+  }, 
+  {
+      "pk": 6, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000006a", 
+          "name": "Hydrostatic Drive Compact Utility Tractors ", 
+          "description": "The Fast Ag Narrow Transport A-Series Liquid Applicators feature a transport width of 11 feet, 10 inches. They are available in 60 and 66 foot models. The tank design offers both 1,800 and 2,600 gallon capacities with a larger sump, enhanced weight distribution on the trailer and a lower/narrower profile to significantly increase operator visibility from the cab. Fast Applicators allow growers to split apply and side-dress nitrogen while also securing nitrogen investment by applying in the ground where there is minimal risk of nitrogen loss.", 
+          "price": 440.99, 
+          "category": 5, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0917/FAST-Ag-Narrow-Transport-A-Series-Applicator_0917-copy.jpg?t=1506552066&width=1080", 
+          "image": "006a-FAST-Ag-Narrow-Transport-A-Series-Applicator_0917.jpg", 
+          "manufacturer": "Fast AG Solution"
+      }
+  }, 
+  {
+      "pk": 7, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000007a", 
+          "name": "John Deere 400 & 600 Series Sprayers ", 
+          "description": "The new sprayers help you consistently spray more acres a day without feeling it. A new cab surrounds you in comfort, while improvements to spray quality help ensure consistent application, so you can work faster and more precise. ", 
+          "price": 770.99, 
+          "category": 5, 
+          "rating": 4.6, 
+          "image_url": "https://www.deere.com/assets/images/region-4/products/sprayers/sprayers-applicators-group/400-600-block2-r4f110298_rrd.jpg", 
+          "image": "007a-400-600-block2-r4f110298_rrd.jpg", 
+          "manufacturer": "John Deere"
+      }
+  }, 
+  {
+      "pk": 8, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000008a", 
+          "name": "DS20 Dry Nutrient Spinner Spreader Box", 
+          "description": " It Spread up to 10 tons of fertilizer, with spread widths up to 105-feet wide – 25% to 50% wider than leading competitors. Apply two products simultaneously at predetermined or variable rates, reducing time in the field, compaction, and fuel. For 408R, 410R, 412R, 612R and 616R Sprayers (200 cu ft. capacity)", 
+          "price": 560.99, 
+          "category": 5, 
+          "rating": 4.6, 
+          "image_url": "https://www.deere.com/assets/images/region-4/products/application-equipment/ds20-dry-spinner-spreader/ds20_r4f132165_rrd_1_large_0aff8e54969ad1f40c7e117293a94e7a4154db3b.jpg ", 
+          "image": "008a-ds20_r4f132165_rrd_1_large.jpg", 
+          "manufacturer": "John Deere"
+      }
+  }, 
+  {
+      "pk": 9, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "0000009p", 
+          "name": "Miedema Structural 2000", 
+          "description": " The Structural belt planters are the best solution for quickly, accurately planting a large variety of seed potatoes. The advanced technology makes it possible to automatically vary the planting distance depending on the size of the potato. The result? Optimum stem distribution and a more homogeneous end product. With a Structural, even pre-germinated potatoes can be planted effortlessly with no sprout damage.", 
+          "price": 120.99, 
+          "category": 2, 
+          "rating": 4.6, 
+          "image_url": "https://www.dewulfgroup.com/media/1330/ms-2000-trailed-ferti-flow-1.jpg?center=0.49731182795698925,0.39215686274509803&mode=crop&width=800&height=600&format=jpg&rnd=131733635900000000", 
+          "image": "009p-ms-2000-trailed-ferti-flow-1.jpg", 
+          "manufacturer": "Dewulf"
+      }
+  }, 
+  {
+      "pk": 10, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000010p", 
+          "name": "Drawn Planter", 
+          "description": "16 rows on 30-in. Spacing. Available with optional ExactEmerge™ or MaxEmerge™ 5e row unit or standard in mini-hopper, 1.6-bu., or 3-bu. MaxEmerge™ 5 row unit Insecticide option for mini-hopper and 1.6-bu. 3-section frame flexes 21 degrees up & down with narrow transport of 12 ft.", 
+          "price": 110.99, 
+          "category": 2, 
+          "rating": 4.6, 
+          "image_url": "https://www.deere.com/assets/images/region-4/products/planting-equipment/drawn-planters/1775nt-16row-30/1775nt_planter_16r_30_r4d054719_large_8f5c862766160e34372b7b4bc9104e3471b3c43d.jpg", 
+          "image": "0010p-nter_16r_30_r4d054719.jpg", 
+          "manufacturer": "John Deere"
+      }
+  }, 
+  {
+      "pk": 11, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000011p", 
+          "name": "Multiflex ", 
+          "description": "Multiflex is a three point linkage pneumatic precision planter that allows to vary the row spacing. It is equipped with the tested «short» Maxi-5 double disc seeding element with a parallelogram fitted with shortened rods to reduce the overhangs of the equipment, a useful solution in the maneuvering phases.", 
+          "price": 800.99, 
+          "category": 2, 
+          "rating": 4.6, 
+          "image_url": "https://mascar.it/wp-content/uploads/2020/02/Multiflex_web-news_2.jpg", 
+          "image": "0011p-Multiflex_web-news_2.jpg", 
+          "manufacturer": "Mascar"
+      }
+  }, 
+  {
+      "pk": 12, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000012p", 
+          "name": "Planter-style cast opener", 
+          "description": "Exclusive and Versatile Wobble-Slot Design is the best single seed placement volumetric meter on the market for planting a wide variety of seeds. Easily adjustable Parallel Linkage engineered with 10″ of travel to create constant down-pressure throughout its operating range. Big Blade/Little Blade configuration for Narrow Curf, which leads to superior seed-to-soil contact..", 
+          "price": 4477.99, 
+          "category": 2, 
+          "rating": 4.6, 
+          "image_url": "https://crustbuster.com/wp-content/uploads/2021/01/Total-Plant-System.jpg ", 
+          "image": "0012p-Total-Plant-System.jpg", 
+          "manufacturer": "CrustBuster"
+      }
+  }, 
+  {
+      "pk": 13, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000013ti", 
+          "name": "Rite Way's HCD-32 High-Speed Compact Disc", 
+          "description": "Rite Way's HCD-32 High-Speed Compact Disc is the ideal tillage implement to prepare seedbeds, manage trash and crop residue, repair ruts and destroy clogs. With a 13 foot, 8 inch transport height, it fits on most roads, under bridges and inside storage buildings. The HCD-32 features the Forward Unfolding System using hydraulics to go from transport to field mode in minutes.", 
+          "price": 706.99, 
+          "category": 6, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2018/February-2018/Rite-wayHCD-32-high-speed-comapct-disc_0218-copy.jpg?t=1518821961&width=1080", 
+          "image": "0013ti-Rite-wayHCD-32-high-speed.jpg", 
+          "manufacturer": "RiteWay"
+      }
+  }, 
+  {
+      "pk": 14, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000014ti", 
+          "name": "Tebben Soil Aerator", 
+          "description": "The Tebben Aerator is designed with quick adjustable swing arms which allow the user to adjust for compaction relief, aeration, cultivation and/or residue incorporation. The Aerator minimizes soil erosion, maximizes water retention and absorption, reduces soil compaction, increases grass and hayfield production and fractures soil up to 7 inches.", 
+          "price": 955.99, 
+          "category": 6, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2019/May-2019/Tebben-Soil-Aerator_0519.jpg?t=1556744914&width=1080", 
+          "image": "0014ti-Tebben-Soil-Aerator_0519.jpg", 
+          "manufacturer": "Tebben"
+      }
+  }, 
+  {
+      "pk": 15, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000015ti", 
+          "name": " KL480 Tiller", 
+          "description": "The KL480 Tiller is designed for easy preparation of gardens and yards. This power-driven front-end attachment allows the operator to easily monitor the Tiller's performance.", 
+          "price": 6487.99, 
+          "category": 6, 
+          "rating": 4.6, 
+          "image_url": "https://cdn.venturepro.com/images/ventrac/products/primary/1000/KL480.jpg", 
+          "image": "0015ti-KL480.jpg", 
+          "manufacturer": "Ventrac "
+      }
+  }, 
+  {
+      "pk": 16, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000016ti", 
+          "name": "John Deere Frontier VT17 Series Vertical Tillage Tools", 
+          "description": "John Deere Frontier VT17 Series Vertical Tillage Tools can be easily adjusted and custom-configured to best fit the level of residue management and tillage that customers want. The VT17 Series offers fore and aft leveling adjustments that can quickly be made using a simple crank system. Gang angles on the implement can be adjusted 0-12 degrees for less or more aggressive tillage. Operators can fine-tune the machine’s operating depth of 0-3 inches using a pin-and-clip adjustment.", 
+          "price": 1400.99, 
+          "category": 6, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0917/John-Deere-Frontier-VT17-Series-Vertical-Tillage-Tool_0917copy.jpg?t=1504722619&width=1080", 
+          "image": "0016ti-John-Deere-Frontier-VT17-Series.jpg", 
+          "manufacturer": "John Deere"
+      }
+  }, 
+  {
+      "pk": 17, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000017ti", 
+          "name": "Pöttinger Lion Power Harrows", 
+          "description": "With Pöttinger's Lion Power Harrows, it is easy to quickly set the ideal working depth to obtain the correct seedbed structure. The working depth is adjusted in 1 centimeter steps using a pin-in-hole system. An additional advantage with Lion Power Harrows is the leveling board, which adjusts automatically according to the setting of the rear roller, independently of the working depth. The leveling board is guided at a consistent pre-defined distance above the soil without changing its distance from the tines. This patented solution delivers the identical tilth structure for the seedbed, even in changeable soil conditions.", 
+          "price": 1100.99, 
+          "category": 6, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2019/May-2019/Pottinger-Lion-Power-Harrows_0519-copy.jpg?t=1557437702&width=1080", 
+          "image": "0017ti-Pottinger.jpg", 
+          "manufacturer": "Pöttinger"
+      }
+  }, 
+  {
+      "pk": 18, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000018h", 
+          "name": " Alloway's HV- 8R22 Sugarbeet Harvester ", 
+          "description": "Alloway's HV- 8R22 Sugarbeet Harvester has shown up to a 35% increase in production at a consistent 5.5 mph (up to 7.0 mph in ideal conditions) compared to competitive machines. It is a high volume eight-row, 22 inch harvester. The unique 64 inch wide, curved scrub elevator is the widest on the market and moves up 35% more sugarbeets.", 
+          "price": 5000.99, 
+          "category": 3, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2020/December-2020/Alloway-HV--8R22-Sugarbeet-Harvester_1220-copy.jpg?t=1606879466&width=1080", 
+          "image": "0018h--HV--8R22-Sugar.jpg", 
+          "manufacturer": " Alloway"
+      }
+  }, 
+  {
+      "pk": 19, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000019h", 
+          "name": "FR920 Forage Cruiser Forage Harvester ", 
+          "description": "Operating with a powerful, 911 horsepower, fuel-efficient engine, New Holland Agriculture's FR920 Forage Cruiser Forage Harvester is designed to produce best-in-class chop quality and throughput. It accomplishes this through features like its high-performance feedroll module. The module allows for more efficient control of the crop, utilizing 34 inch wide feedrolls that deliver crop to the cutterhead for high-chop quality.", 
+          "price": 4000.99, 
+          "category": 3, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2018/November-2018/new-holland-agFR920-Forage-Cruiser-forage-harvester_1118.jpg?t=1542323104&width=1080 ", 
+          "image": "0019h-holland.jpg", 
+          "manufacturer": "New Holland"
+      }
+  }, 
+  {
+      "pk": 20, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000020h", 
+          "name": "Tribine Harvester LLC Combine ", 
+          "description": "With a 1,000 bushel grain tank, the Tribine Combine can make many field rounds without stopping and unloads at over 500 bushels per minute. It may eliminate the need for tractor and grain cart in many operations. The Tribine features just two tracks per field pass and full time all-wheel drive. Center articulation and crab steering makes the machine nimble, with turning radius less than most other combines today. Current models are equipped with twin 9.0 liter Cummins engines with continuous 590-650 horsepower, without the addition of DEF.", 
+          "price": 7000.99, 
+          "category": 3, 
+          "rating": 4.6, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0617/tribine-combine_0617-copy.png?t=1498581290&width=1080 ", 
+          "image": "0020h-tribine-combine.jpg", 
+          "manufacturer": "Tribine"
+      }
+  }, 
+  {
+      "pk": 21, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000021h", 
+          "name": "Grain harvester ", 
+          "description": "Harvester in a field.", 
+          "price": 180.99, 
+          "category": 3, 
+          "rating": 4.6, 
+          "image_url": "https://images.unsplash.com/photo-1618987488793-78738e8f80d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80", 
+          "image": "0021h-tribine-combine.jpg", 
+          "manufacturer": "None"
+      }
+  }, 
+  {
+      "pk": 22, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000022m", 
+          "name": "Denim Jeans", 
+          "description": "Denim jeans for the farm", 
+          "price": 16.99, 
+          "category": 8, 
+          "rating": 4.6, 
+          "image_url": "https://p0.pikrepo.com/preview/514/925/blue-denim-jeans-with-silver-belt-buckle.jpg ", 
+          "image": "0022m-blue-denim-jeans.jpg", 
+          "manufacturer": "None"
+      }
+  }, 
+  {
+      "pk": 23, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000023m", 
+          "name": "Mug ", 
+          "description": "Mug", 
+          "price": 23.99, 
+          "category": 4, 
+          "rating": 4.6, 
+          "image_url": "http://images8.cpcache.com/product/546368918v0_480x480_Back.jpg", 
+          "image": "0023m-Back.jpg", 
+          "manufacturer": "Skeptical Science"
+      }
+  }, 
+  {
+      "pk": 24, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000024m", 
+          "name": "Shirt ", 
+          "description": "Summer shirt.", 
+          "price": 30.99, 
+          "category": 7, 
+          "rating": 4.7, 
+          "image_url": "https://www.farm-equipment.com/ext/resources/images/Products/new-products/2017/0617/tribine-combine_0617-copy.png?t=1498581290&width=1080 ", 
+          "image": "0024m-attachment_69593179.jpg", 
+          "manufacturer": "99designs"
+      }
+  }, 
+  {
+      "pk": 25, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000025m", 
+          "name": "Climate shirt ", 
+          "description": "Solid colors: 100% Cotton; Heather Grey: 90% Cotton, 10% Polyester; All Other Heathers: 50% Cotton, 50% Polyester. Great Recycling T-Shirt that Reminds us that we need to Save the Earth and Reduce, Reuse, and Recycle, Save Our Earth. This Tee is a Perfect Reminder that there is No Planet B and we need to Take Care of Mother Earth, Plant Trees, Reduce Pollution and Reverse Climate Change, Stop Destroying Natural Habits, Save Endangered Animals and embrace Green Energy like Solar and Wind Energy, Polar bears Against Trump, CLimate Change, Global Warming, Science is Not a Liberal Conspiracy, Climate March for Justice, Climate Change March, You Can't Silence Science, Melting Earth, Rising Sea Levels, Greenhouse Gas ", 
+          "price": 29.99, 
+          "category": 7, 
+          "rating": 4.6, 
+          "image_url": "https://m.media-amazon.com/images/I/B1WWMAfTfHS._CLa%7C2140%2C2000%7C712z%2BuWTxeL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png", 
+          "image": "0025m-2140,200.jpg", 
+          "manufacturer": "Jamrock"
+      }
+  }, 
+  {
+      "pk": 26, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000026m", 
+          "name": "Shirt", 
+          "description": "View all clothing now on the official Petrol Industries website. Free Shipping discount on your first order. Shop the largest Petrol Industries collection online. Return now 60 days. Official Webshop. Postpay. Free return. Free home delivery.", 
+          "price": 36.99, 
+          "category": 7, 
+          "rating": 5, 
+          "image_url": " https://i.pinimg.com/originals/6f/8e/c5/6f8ec56d20921738209578af28e2013f.jpg", 
+          "image": " 0026m-38209578af28e2013f.jpg", 
+          "manufacturer": "Etsy"
+      }
+  }, 
+  {
+      "pk": 27, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000027j", 
+          "name": "Jeans", 
+          "description": "Parisian Tall split hem skinny jeans in light wash blue", 
+          "price": 29.99, 
+          "category": 8, 
+          "rating": 4.6, 
+          "image_url": "https://p0.pikrepo.com/preview/428/893/person-in-blue-denim-jeans-and-red-sneakers.jpg", 
+          "image": " 0027j-blue-denim.jpg", 
+          "manufacturer": " Parisian Tall"
+      }
+  }, 
+  {
+      "pk": 28, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000028j", 
+          "name": "Fitted Jeans ", 
+          "description": "5-pocket, slightly looser-fit jeans in washed, thick cotton denim embellished with rhinestones. Extra-high waist, button fly, and straight, ankle-length legs. Made partly from recycled cotton. ", 
+          "price": 27.99, 
+          "category": 8, 
+          "rating": 4.9, 
+          "image_url": " https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F55%2Fde%2F55de051d8ce8c1752601be04db146d706763f334.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_mom%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main] ", 
+          "image": " 0028j-hmgoepprod.jpg", 
+          "manufacturer": "H&M"
+      }
+  }, 
+  {
+      "pk": 29, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000029j", 
+          "name": "Jeans", 
+          "description": "Solid colors: 100% Cotton; Heather Grey: 90% Cotton, 10% Polyester; All Other Heathers: 50% Cotton, 50% Polyester. Great Recycling T-Shirt that Reminds us that we need to Save the Earth and Reduce, Reuse, and Recycle, Save Our Earth. This Tee is a Perfect Reminder that there is No Planet B and we need to Take Care of Mother Earth, Plant Trees, Reduce Pollution and Reverse Climate Change, Stop Destroying Natural Habits, Save Endangered Animals and embrace Green Energy like Solar and Wind Energy, Polar bears Against Trump, CLimate Change, Global Warming, Science is Not a Liberal Conspiracy, Climate March for Justice, Climate Change March, You Can't Silence Science, Melting Earth, Rising Sea Levels, Greenhouse Gas ", 
+          "price": 23.99, 
+          "category": 8, 
+          "rating": 4.6, 
+          "image_url": " https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff3%2F60%2Ff3603ee623afb8057421499c3a2e81209810dd5f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_wide%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main] ", 
+          "image": "0029j-hmgoepprod.jpg", 
+          "manufacturer": "H&M"
+      }
+  }, 
+  {
+      "pk": 30, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000030h", 
+          "name": "HI-WHEEL WOODEN HANDLE GARDEN PUSH PLOW CULTIVATOR ", 
+          "description": "NEW MAXIM MFG BHW-24 24 HI-WHEEL WOODEN HANDLE GARDEN PUSH PLOW CULTIVATOR ", 
+          "price": 150.99, 
+          "category": 10, 
+          "rating": 4.6, 
+          "image_url": " https://i.ebayimg.com/images/g/Q7gAAOSwT6pViLz8/s-l300.jpg ", 
+          "image": " 0030h-s-l300.jpg", 
+          "manufacturer": "none"
+      }
+  }, 
+  {
+      "pk": 31, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000031h", 
+          "name": "12 Inch Universal Tool Wooden Steel Handheld Garden 2 in 1 Hoe Rake", 
+          "description": " 2 IN 1 GARDENING TOOL: Great value! This two in one gardening tool includes a rake on one side and a hoe cultivator on the other; both are essential tools for cultivating your garden, are easy to hold and maneuver and allow you complete multiple gardening tasks without having to switch tools saving ", 
+          "price": 29.99, 
+          "category": 10, 
+          "rating": 4.9, 
+          "image_url": " https://i5.walmartimages.com/asr/04b78760-9f5e-4ba1-a33c-063f0877ec55.208fc301e70cc3869892bd80c177e738.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff ", 
+          "image": " 0031h-04b78760.jpg", 
+          "manufacturer": "Universal Tool"
+      }
+  }, 
+  {
+      "pk": 32, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000032h", 
+          "name": "Hoe", 
+          "description": " A hoe is an ancient and versatile agricultural hand tool used to shape the soil, control weeds, clear soil, and harvest root crops. Shaping the soil can be done by piling soil around the base of plants (hilling) or creating narrow furrows (drills) and shallow trenches for planting seeds and bulbs. Weed control can be done with the help of a hoe by cutting foliage from the roots and clearing the soil of old roots and crop residues. Hoes can be used for digging and moving the soil used in the harvesting of root crops such as potatoes. ", 
+          "price": 29.99, 
+          "category": 10, 
+          "rating": 4.6, 
+          "image_url": "https://fmexim.com/images/asset-agri-tools-hoe.jpg ", 
+          "image": "0032h-asset-agri-tools-hoe.jpg", 
+          "manufacturer": "Maker"
+      }
+  }, 
+  {
+      "pk": 33, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000033r", 
+          "name": "Soma X Parley Bottle with Ocean Plastic Sleeve ", 
+          "description": "The typical Soma glass bottles come wrapped in a colorful soft silicone, but this special edition bottle has a light blue sleeve that’s made from two recycled plastic bottles. The glass is BPA-free and shatter-resistant; the cap is all-natural bamboo, made from renewable resources.", 
+          "price": 29.99, 
+          "category": 4, 
+          "rating": 4.6, 
+          "image_url": "https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2018/04/Recycled-Gear-Gear-Patrol-Soma.jpg?resize=768:*", 
+          "image": "0033r-Recycled-Gear-Gear-Patrol-Soma.jpg", 
+          "manufacturer": " Soma X Parley"
+      }
+  }, 
+  {
+      "pk": 34, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000034rm", 
+          "name": "Cotopaxi Luzon 18L Daypack", 
+          "description": "Cotopaxi was built on the premise of repurposing materials. Factories let the brand know there’s leftover material from the last production cycle, and that material is then woven into packs and apparel. This lightweight pack works for a casual weekend trip or for summitting 14-ers.", 
+          "price": 29.99, 
+          "category": 4, 
+          "rating": 4.6, 
+          "image_url": "https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2018/04/Recycled-Gear-Gear-Patrol-Cotopaxi.jpg?resize=768:*", 
+          "image": "0034r-Recycled-Gear-Gear-Patrol-Cotopaxi.jpg", 
+          "manufacturer": "Cotopaxi"
+      }
+  }, 
+  {
+      "pk": 35, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000035r", 
+          "name": "Norton Point Current Sunglasses", 
+          "description": "Based on Martha’s Vineyard, the brand literally looks to the ocean for inspiration. They collect ocean plastic, crush it down into plastic pellets, then mold it into sunglasses and reinvest the money into helping clean up the ocean. These Ray-Ban inspired sunnies come with polarized lenses and a cool hit of color on the back of the temples.", 
+          "price": 29.99, 
+          "category": 4, 
+          "rating": 4.6, 
+          "image_url": "https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2018/04/Recycled-Gear-Gear-Patrol-Sunnies.jpg?resize=768:*", 
+          "image": "0035r-Recycled-Gear-Gear-Patrol-Sunnies.jpg", 
+          "manufacturer": "Martha Vineyard"
+      }
+  }, 
+  {
+      "pk": 36, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000036i", 
+          "name": "Green System Cultivator", 
+          "description": "GreenSystem Cultivator is useful in land preparation. The cultivator variants cater to all kinds of soils, ranging from soft and medium soil to stony and rough soil. This farm equipment suits all kinds of crops", 
+          "price": 29.99, 
+          "category": 9, 
+          "rating": 4.6, 
+          "image_url": "https://www.deere.co.in/assets/images/region-1/products/implements/Cultivator_Greensystem_implement_large_963708a0da8407469b82f5f2147e821f7b95a118.png", 
+          "image": "0036i-Greensystem_implement.jpg", 
+          "manufacturer": "John Deere"
+      }
+  }, 
+  {
+      "pk": 37, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000037i", 
+          "name": "mini electric walking tractor 8hp hand tractor", 
+          "description": "Farm equipment mini electric walking tractor 8hp hand tractor in South Africa.", 
+          "price": 29.99, 
+          "category": 9, 
+          "rating": 4.6, 
+          "image_url": "https://sc04.alicdn.com/kf/HTB1uRiYLq6qK1RjSZFmq6x0PFXaY.jpg", 
+          "image": "0037i-HTB1uRiYLq6qK1RjSZFmq6x0PFXaY.jpg", 
+          "manufacturer": "Gold Supplier"
+      }
+  }, 
+  {
+      "pk": 38, 
+      "model": "products.product", 
+      "fields": {
+          "sku": "00000038i", 
+          "name": " Tafe Disc Plough 228DS", 
+          "description": "KhetiGaadi provide all brand Tractor implement/tractor attachment for 15Hp tractor to 120 HP tractor with all specification and features. Find Disc Plough price in India, TafeDisc Plough price in India on KhetiGaadi, Tafe Disc Plough 228DS price in India, TafeDisc Plough all models in India, Tafe Disc Plough 228DS is best product performance, high level of productive capacity, excellent quality for the Tillage . Disc Plough is a farm implement used for Tillage .", 
+          "price": 2999.99, 
+          "category": 9, 
+          "rating": 4.6, 
+          "image_url": "https://khetigaadi.com/images/new-implement/TafeDiscPlough228DS_0_1459939752.jpg", 
+          "image": "0038i-afeDiscPlough2.jpg", 
+          "manufacturer": "KhetiGaadi"
+      }
+  }
+]
