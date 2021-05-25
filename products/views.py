@@ -5,9 +5,13 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category
+from review.models import ProductReview
+from review.forms import ProductReviewForm
+from profiles.models import UserProfile
 from .forms import ProductForm
 
 # Create your views here.
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -60,15 +64,33 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    if request.user.is_authenticated:
+        user = UserProfile.objects.get(user=request.user)
+    else:
+        user = None
 
+    review = ProductReview.objects.filter(product=product)
+
+    # If user has reviewed an item
+    try:
+        item_review = ProductReview.objects.filter(user=user, product=product)
+
+    except ProductReview.DoesNotExist:
+        edit_review_form = None
+
+    review_form = ProductReviewForm()
+    template = 'products/product_detail.html'
     context = {
         'product': product,
+        'review': review,
+        'review_form': review_form,
     }
 
-    return render(request, 'products/product_detail.html', context)
+    return render(request, template, context)
 
 
 @login_required
