@@ -54,7 +54,7 @@ def edit_review(request, review_id):
         review.save()
 
         review = ProductReview.objects.filter(product=product)
-        avg_rate = reviews.aggregate(Avg('rate'))['rate__avg']
+        avg_rate = review.aggregate(Avg('rate'))['rate__avg']
         product.avg_rate = int(avg_rate)
         product.save()
 
@@ -64,6 +64,8 @@ def edit_review(request, review_id):
         # Error message if form was invalid
         messages.error(request, 'Something went wrong. '
                                 'Make sure the form is valid.')
+
+        print(review_form)
 
     return redirect(reverse('product_detail', args=(review.product.id,)))
 
@@ -78,12 +80,12 @@ def delete_review(request, review_id):
     try:
         review.delete()
 
-        reviews = ProductReview.objects.filter(product=product)
-        avg_rating = reviews.aggregate(Avg('rating'))['rate__avg']
-        if avg_rating:
-            product.avg_rating = int(avg_rating)
+        review = ProductReview.objects.filter(product=product)
+        avg_rate = review.aggregate(Avg('rate'))['rate__avg']
+        if avg_rate:
+            product.avg_rate = int(avg_rate)
         else:
-            product.avg_rating = 0
+            product.avg_rate = 0
 
         product.save()
         messages.success(request, 'Your review was deleted')

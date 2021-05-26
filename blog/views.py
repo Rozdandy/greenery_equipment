@@ -1,3 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from .models import Category, Post
 
-# Create your views here.
+
+def post(request):
+    """ Post A Blog """
+    posts = Post.objects.all()
+
+    template = 'blog/blog.html'
+    context = {
+        'posts': posts,
+    }
+
+    return render(request, template, context)

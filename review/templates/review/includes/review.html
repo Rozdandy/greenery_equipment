@@ -80,19 +80,19 @@
                                         <input type="text" name="title" maxlength="50" autofocus=""
                                             value="{{rev.topic}}"
                                             class="add-blog-form-field textinput textInput form-control form-control"
-                                            required="" id="id_title">
+                                            required="" id="id_topic">
                                         <textarea name="body" cols="40" rows="10" placeholder="Body"
                                             class="add-blog-form-field textarea form-control form-control" required=""
-                                            id="id_description">{{ rev.body }}</textarea>
-                                        <select name="rating"
+                                            id="id_description">{{rev.body}}</textarea>
+                                        <select name="rate"
                                             class="add-blog-form-field select form-control form-control" required=""
                                             id="id_rating">
                                             <option value="" selected="">---------</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
+                                            <option value="1">1 - Bad</option>
+                                            <option value="2">2 - Average</option>
+                                            <option value="3">3 - Good</option>
+                                            <option value="4">4 - Very Good</option>
+                                            <option value="5">5 - Great</option>
                                         </select>
                                     </div>
                                     <!-- Footer containing Add and Cancel buttons -->
