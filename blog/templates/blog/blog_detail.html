@@ -42,7 +42,14 @@
                 </div>
             </article>
 
-           
+            {% if request.user.is_superuser %}
+            <small class="ml-3">
+                <a href="{% url 'edit_blog' post.slug %}">Edit</a> |
+                <a class="text-danger" href="{% url 'delete_blog' post.slug %}">Delete</a>
+            </small>
+            {% endif %}
+        </div>
+
         <hr class="w-100">
     </div>
 
