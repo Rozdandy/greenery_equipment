@@ -79,3 +79,32 @@ def blog_add(request):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def edit_blog(request, slug):
+    """ Edit a Blog Post """
+    if not request.user.is_superuser:
+        messages.error(request, 'Only our STILE team has access to this.')
+        return redirect(reverse('homepage'))
+
+    post = get_object_or_404(Post, slug=slug)
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated blog post!')
+            return redirect(reverse('detail_post', args=[post.slug]))
+        else:
+            messages.error(request, 'Failed to update blog post. Please ensure the form is valid.')
+    else:
+        form = PostForm(instance=post)
+        messages.info(request, f'You are editing {post.title}')
+
+    template = 'blog/edit_blog.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+
+    return render(request, template, context)
