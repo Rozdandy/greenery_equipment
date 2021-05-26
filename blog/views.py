@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from autoslug import AutoSlugField
 from .models import Category, Post
-from django.contrib.auth.decorators import login_required
+from django.contrib import messages
+
 
 
 def post(request):
