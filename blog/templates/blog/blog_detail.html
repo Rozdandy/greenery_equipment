@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% load static %}
+{% load crispy_forms_tags %}
+{% load static %
 
 {% block page_header %}
 <div class="container header-container">
@@ -12,7 +13,7 @@
 {% block content %}
 <div class="overlay"></div>
 
-<main class="container h-100">
+<section class="container h-100">
     <!--- Blog Details --->
     <div class="container">
 
@@ -34,17 +35,76 @@
                 </div>
                 {% endif %}
             </div>
-            <div class="row py-1">
-                <div class=" col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-                    {{ post.overview }}
-                </div>
-            </div>
-            <div class="row mb-4 py-4">
+
+            <article class="row mb-4 py-4">
                 <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
                     {{ post.article }}
                 </div>
+            </article>
+
+
+        </div>
+        <div class="tags gap-xy text-center mt-5">
+            {% for category in post.categories.all %}
+            <a href="" class="badge badge-pill badge-secondary"></a>
+            {% endfor %}
+        </div>
+
+        <hr class="w-100">
+    </div>
+
+    <div class="container">
+        <div class="row pt-4 pb-2">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                <h3 class="comment-heading">Comments</h3>
+            </div>
+        </div>
+
+        <div class="row pt-2">
+            <div class=" medial-list col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                {% for comment in post.comments.all %}
+                <div class="article-comment">
+                    <img class="avatar avatar-sm mr-4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__240.png" alt="avatar">
+                    <div class="media-body">
+                        <div>
+                            <strong>{{ comment.name }}</strong> | <small class="ml-4">{{ comment.date_added | date:"d M - Y - h:i "}}</small>
+                        </div>
+
+                    </div>
+                   <p>{{ comment.article}}</small></p>
+                    
+                </div>
+                {% empty %}
+                <div class="notifications">
+                    <p>No comment yet!</p>
+    
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="ccol-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                <hr>
+            </div>
+        </div>
+        <div class="row pb-4">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                <h4 class="add-comment">Add A Comment</h4>
+            </div>
+        </div>
+        <div class="row pb-4">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                <form method="post" action=".">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+                    <input type="submit" class="cta-white cta-comment" value="Add comment">
+                </form>
             </div>
         </div>
     </div>
-</main>
+</section>
+
+
+<!--- Comment Section--->
+
 {% endblock %}
