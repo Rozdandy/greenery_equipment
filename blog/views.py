@@ -12,3 +12,15 @@ def post(request):
     }
 
     return render(request, template, context)
+
+
+def detail_post(request, slug):
+    """ Details on Blog Post """
+    post = Post.objects.get(slug=slug)
+
+    template = 'blog/blog_detail.html'
+    context = {
+        'post': post,
+    }
+
+    return render(request, template, context)
