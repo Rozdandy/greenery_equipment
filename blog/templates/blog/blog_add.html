@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Blog header -->
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row-products">
+       
+            <div class="col-12 col-md-6">
+                <hr>
+                <h2 class="logo-font">Blog Management</h2>
+                <h5 class="text-muted">Add Blog Post</h5>
+                <hr>
+            </div>
+        
+    </div>
+</div>
+<!-- add blog form -->
+<div class="container general-container">
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <div class="div-add-product-form">
+                <form class="mt-3" action="{% url 'blog_add' %}" method="POST" enctype="multipart/form-data"
+                    id="add-blog-form">
+                    {% csrf_token %}
+                    {% for field in form %}
+                    {% if field.name != 'image' %}
+                    {{ field | as_crispy_field }}
+                    {% else %}
+                    {{ field }}
+                    {% endif %}
+                    {% endfor %}
+                    <div class="div-buttons mt-5">
+                        <button class="cta cta-black rounded-0" type="submit">Add Blog Post</button>
+                        <a class="btn cta cta-white rounded-0" href="{% url 'post' %}">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

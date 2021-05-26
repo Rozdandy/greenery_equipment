@@ -2,9 +2,6 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Category, Post
 from django.contrib.auth.decorators import login_required
 
-from .forms import CommentForm
-
-
 
 def post(request):
     """ Post A Blog """
@@ -36,6 +33,18 @@ def detail_post(request, slug):
     context = {
         'post': post,
         'form': form,
+    }
+
+    return render(request, template, context)
+
+
+def category(request, slug):
+    """ Blog Categories """
+    category = Category.objects.get(slug=slug)
+    
+    template = 'blog/blog_category.html'
+    context = {
+        'category': category
     }
 
     return render(request, template, context)

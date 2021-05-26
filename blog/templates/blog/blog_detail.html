@@ -20,7 +20,7 @@
         <div class="row py-2 mt-5">
             <div class="text-center">
                 <h3 class="text-dark">{{ post.title }}</h3>
-                <p>{{ post.date_added | date:"d M - Y - h:i | "}}<a href=""
+                <p>{{ post.date_added | date:"d M - Y - h:i  "}} |  <a href="{% url 'category' post.category.slug %}"
                         class="cat-title">{{ post.category.title }}</a></p>
             </div>
 
@@ -42,13 +42,7 @@
                 </div>
             </article>
 
-
-        </div>
-        <div class="tags gap-xy text-center mt-5">
-            {% for category in post.categories.all %}
-            <a href="" class="badge badge-pill badge-secondary"></a>
-            {% endfor %}
-        </div>
+           
 
         <hr class="w-100">
     </div>
@@ -87,20 +81,7 @@
                 <hr>
             </div>
         </div>
-        <div class="row pb-4">
-            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-                <h4 class="add-comment">Add A Comment</h4>
-            </div>
-        </div>
-        <div class="row pb-4">
-            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-                <form method="post" action=".">
-                    {% csrf_token %}
-                    {{ form | crispy }}
-                    <input type="submit" class="cta-white cta-comment" value="Add comment">
-                </form>
-            </div>
-        </div>
+        
     </div>
 </section>
 
