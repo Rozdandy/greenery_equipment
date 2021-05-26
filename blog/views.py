@@ -6,4 +6,9 @@ def post(request):
     """ Post A Blog """
     posts = Post.objects.all()
 
+    template = 'blog/blog.html'
+    context = {
+        'posts': posts,
+    }
+
     return render(request, template, context)

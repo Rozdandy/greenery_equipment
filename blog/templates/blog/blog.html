@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+
+<main class="container h-100">
+
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Agro-Climate blog</h1>
+            <p class="lead my-3">Get the Best and current News on Agriculture, Food Security and Climate Change here.</p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        {% for post in posts %}
+
+            <div class="col-sm-12 col-md-6">
+                <div class="card h-100 border-0 my-3 mx-3">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-5 p-3 d-flex flex-column position-static">
+                            <h3 class="mb-0">{{ post.title }}</h3>
+                            <div class="mb-1 text-muted">{{ post.date_added | date:"d M - Y | h:i"}}</div>
+                            <p class="card-text mb-auto">{{ post.overview|truncatewords:20 }}</p>
+                            <a href="" class="stretched-link">Read More</a>
+                        </div>
+
+                        {% if post.thumbnail %}
+                        <div class="col-7 d-none d-lg-block">
+                            <img src="{{ post.thumbnail.url }}" alt="no-image" class="mr-0" width="100%"
+                                height="100%">
+                        </div>
+                        {% else %}
+                        <div class="col-7 d-none d-lg-block">
+                            <img src="{{ post.image_url }}" alt="no-image" class="mr-0" width="100%"
+                                height="100%">
+                        </div>
+                        {% endif %}
+
+
+                    </div>
+                </div>
+
+            </div>
+       {% endfor %}
+    </div>
+    
+</main>
+{% endblock %}
