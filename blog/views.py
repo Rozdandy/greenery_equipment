@@ -108,3 +108,16 @@ def edit_blog(request, slug):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_blog(request, slug):
+    """ Delete a blog post from the blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Only our STILE team has access to this.')
+        return redirect(reverse('homepage'))
+
+    blog = get_object_or_404(Post, slug=slug)
+    blog.delete()
+    messages.success(request, 'Blog post deleted!')
+    return redirect(reverse('post'))
