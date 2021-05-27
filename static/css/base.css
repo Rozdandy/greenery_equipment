@@ -7,13 +7,54 @@ html {
     
 }
 
-body {
-    background: url('/media/homepage-bg.jpg') no-repeat center center fixed;
+.hero-image {
+    background-image: url('/media/homepage-bg.jpg');
+      min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transition: all .5s ease-in-out;
+    -webkit-background-size: all .5s ease-in-out;
+    -moz-background-size: all .5s ease-in-out;
+    -o-background-size: all .5s ease-in-out;
+
+  }
+  
+  .hero-text{
+      background-color: #044E84;
+      min-height: 500px;
+  }
+
+  .hand-picked {
+      margin-top: 5rem;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
 }
+
+.section-2-p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.section-cta {
+    padding: 1rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
+  
 
 /* from Bulma */
 .icon {
@@ -298,8 +339,8 @@ input[name='q']::placeholder {
 
 /*--------------------footer-------------*/
 footer {
-    background-color: rgba(90, 150, 210, 0.95);
-    color: #777777;
+    background-color: #044E84;
+    color: whitesmoke;
     min-height: 120px;
     margin-top: 30px;
 }
