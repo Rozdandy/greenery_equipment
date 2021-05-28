@@ -352,3 +352,119 @@ the purchase will go through and the user will be automatically redirected to su
 [blog](readme/images/edit:delete-blog.png)
 
 
+
+
+
+#### Features Left to Implement:
+
+* A future feature could be adding
+
+    * online customer service chat platform 
+    * Additional payment methods like paypal or applepay
+    * paginations on pages needed
+    * social media loggin
+    * A wish-list feature that allows authenticated users to save items for later purchase.
+    * A like and unlike feature on comment and review section indicate how many people have liked a certain piece of content and certain products.
+
+
+
+
+
+
+
+# **TECHNOLOGY USED**
+
+*The follwoing Languages,, Frameworks, and Libraries were used to build the project*  
+
+### Tools  
+
+* **Git**: It was used for version control which uses the Gitpod terminal, Git was used to commit and Push codes to GitHub.
+* **GitHub**:         [GitHub](https://github.com/) Developer used GitHub as a project repository to save.
+* **Gitpod**:         [GitHub](https://www.gitpod.io/) The project used the Gitpod IDE as my workspace to develop the website. It is linked to GitHub repository to store data when coding.
+* **Icons**:          [Font Awesome](https://fontawesome.com/) Social Media Icons were taken from this site.
+* **Balsamiq**:       [Balsamiq](https://balsamiq.com/) The site was used to create the wireframes during the design stage of the project.
+
+### Front-End Technologies
+
+* [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML): HTML/HTML5 the language used to create and as the markup text to add content to the website.  
+* [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS): It provides the styling for the website.
+* [**jQuery 3.4.0**](https://jquery.com/) Used as the main JavaScript functionality.
+* [JavaScript](https://www.ecma-international.org/)  was used for interactivity.
+* [Bootstrap](https://getbootstrap.com/) was used for page layout 
+* [Google fonts](https://fonts.google.com/) was used for the site fonts
+* [Font awesome](https://fontawesome.com/) was used for its icons 
+
+
+### Back-End Technologies
+
+    
+* [Python3](https://www.python.org/) was used for the application scripting 
+* [Django framework](https://www.djangoproject.com/) was used to build the Project, a high-level Python Web framework that encourages rapid development.
+* [Heroku](https://dashboard.heroku.com/apps) is use for hosting the application.
+* [Amazon web service AWS](https://aws.amazon.com/) was used to host static and media files.
+* [Postgres database](https://www.postgresql.org/)  was used for the deployment of app on heroku.
+* [Gunicorn server](https://gunicorn.org/) was used for the deployment app on heroku .
+* [Stripe payment service](https://stripe.com/)  was used for product secured payments 
+* [Google smtp](https://support.google.com/mail/answer/7126229?hl=en) was used  email to send emails to users 
+
+
+
+* **CSS validator**:  [CSS validator](https://jigsaw.w3.org/css-validator/) The site was used to test for the validity of my CSS code. 
+* **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
+* **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
+
+
+
+* [Django](https://www.djangoproject.com/) – Django is 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
