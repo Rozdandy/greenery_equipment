@@ -243,7 +243,58 @@ The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/),
     - category (Z-A)
  
  
+  **product details**: clicking on a product;
+
+    * Product description : here, the user can see the full description, full name, manufacurer of product etc.
+    * Product Review : the review option on products is available for authenitacted users that have signed In.
+    * Size selection : if product has a size : users have the option to chose  product size to purchase
+    * Quantity : users get to chose from 1 to 50 qty of a particular product to add to shopping bag
   
+
+* **Admin product management** 
+
+    * site owner through product management link:
+    - can add a product
+    - edit / update a product 
+    - delete a product 
+
+
+
+
+
+[product](PUT_IMAGE_HERE)
+
+
+
+
+### Profiles App
+
+* THis app is only available to registered, authenticated users.
+* It has the pre-filled users' information as a default of their shipping/delivery details on their profile page which will be used during their checkout to make it process faster.
+- a user can add, update and delete their personal info
+* Past order: a users profile page automatically save all their past order summary and confirmations
+
+
+
+
+
+
+### Bag app
+
+* The app main function is to aid the checkout process.
+* It displays selected products to be purchased and its details 
+* Users can add and reduce product quantity from the shopping bag and the cost will automatically adjust accordingly 
+* Users can remove selected products from the shopping bag and cost will adjust accordingly
+* For a user to proceed to checkout, they be required to register on the site. When user decides to finish shopping, they will need to input their information and credit card details so that purchases could be completed.
+ 
+* When users empty their shopping bags, there will be a toast message with respect to that.
+
+
+
+[Shopping bag](readme/images/cart.png)
+
+
+
 
 
 
