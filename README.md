@@ -143,3 +143,67 @@ The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leave
 
 
 
+
+
+
+
+# Features
+
+## Existing Features
+
+* Site Navigation bar
+     it is visible on all the site pages and on all sizes (on a smaller width, it toggles into "hamburger"). It contains web-site logo and a set of links for each section and subsection of web-site. it is consistent accross the site it allows the user to do the following:
+
+    * Allow users access to the blog site
+    * Browse the site by price 
+    * Browse the site by category
+    * Search fucntionality via the search icon
+    * User login, logout, sign-in, and sign-out
+    * Access to user profile which is available to authenticated users
+    * Access to shopping bag via the bag icon and toast functionality during shopping
+    
+* Search functionality
+
+    * The search box is part of the top navigation bar which is accessible on all pages.
+    * On smaller device, the search bar is collapsed under the search icon.
+    * It allows customers to enter keywords associated with the products they wish to purchase.
+    * The search results are displayed as a feed of products on `products` Django app products template.
+
+    ![search](readme/images/search-1.png)<br>
+    ![search](readme/images/search-2.png)
+
+
+* Footer section
+
+    This section is located at the bottom-most part of the page. It provides the user with the following information;
+
+    * Links to the different sections of website: the BLOG and SHOP links
+    * Telephone number
+    * social media links
+    * Email and Address
+
+* Go TO Blog
+    * This section contains all the blog posts which relate to climate change and agricultural matters.
+
+* Shop
+
+    * This is the main e-commerce feed of products of the site, it has the options to sort products and filter them by price by category name. Every product clicked will give full detail information about it sucha description, manufacturer, price sizes if any etc. It can be added to the cart and proced to checkout.
+   
+
+* User account 
+    * Available to registered users to help in tracking their order history and safely storing shipping details for a smooth checkout.
+
+* Admin account
+
+    * Exclusvely available to the the site manager or administartor. It enables blog and products inventory. It aid access to the customers' orders, and user profiles . Majority of the information is stored in the Django admin site but the users can also do common tasks such as adding, editing and deleting products or blog posts through the site.
+
+
+
+
+
+
+
+
+
+
+
