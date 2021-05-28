@@ -201,6 +201,56 @@ The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leave
 
 
 
+## Features and Django Apps
+
+The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/), consists of  7 Django applications listed below. 
+
+### Home App
+
+* The home app is the index page, a window to the site, it introduces or attract users to the website and the marketplace.
+* Among features it contain are the Navigation bar and various links, the hero image and the links to the shopping site, it also conatin the footer.
+
+
+### Django-allauth feature
+
+1. Accounts/Registration:
+
+    * `django-allauth` is a Python package installed at the beggining of the project. The package [django-allauth docs](https://django-allauth.readthedocs.io/en/latest/) is an integrated set of Django applications which enables authentication, registration, account management as well as 3rd party (social) account authentication.
+    * Login / logout: a user can easily login with their registered details
+    * Password reset: a user can easily recover their password incase they forget it.
+    * After signing up, a verification e-mail is sent to the registered e-mail to confirm it. Once confirmed, the user can log in with their credentials and access the `profiles` app.
+    
+
+### Automatic e-mails
+
+* A registered user will surely recieve an email for verification before they can sign in. Also, the automatic email feature allows reset and confirmation of password.
+* Additionally, users receive an order confirmation e-mail after a purchase, account verification etc.
+
+
+### Products app
+
+* This is where all the logics and templates connected to the product feed and individual products are located.
+* It has the: **shop**, **product detail** and **admin product management** sections
+
+ * **shop**  user can user can sort the products by:
+    - Price low
+    - Price high
+    - Rating low
+    - Rating high
+    - Product Name (A-Z)
+    - Product Name (Z-A)
+    - Category (A-Z)
+    - category (Z-A)
+ 
+ 
+  
+
+
+
+
+
+
+
 
 
 
