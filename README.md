@@ -86,3 +86,60 @@ Covid-19 is a game-changer, a hallmark of our present dispensation. Online shopp
 
 
 
+
+
+
+
+ ## The Skeleton Plane
+
+ ### **Security**
+
+The Heroku config variables to store all SECRET keys safely to prevent unwanted connections to the database.
+
+Django allauth was used to set up user registration and built in decorators allowed restricted access to certain features on the website that are not meant for regular users.
+
+### **Wireframe**
+
+ [Balsamiq App](https://balsamiq.com/) was used for the design architechture and the site mockups. Below is the link to the wireframe for the desktop and mobile device.
+
+**View all**
+
+ * [Wireframe](wireframe/ms4_wireframe.pdf)
+
+
+### **Database Design**
+
+By default, Django works with SQL databases , thus the SQLite was used during the development. However, Heroku provides a PostgreSQL database for the deployment.
+
+**View all**
+
+ * [Database Schemer](toputdatabasehere)
+
+
+
+## The Surface Plane
+
+#### Fonts
+
+[Google Fonts!](https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@500&family=Exo+2:wght@300&display=swap) Three main fonts were used for the whole sites:
+
+* Exo+2: for the body with fall back on cursive.
+* Berkshire+Swash&family: for the headers with fall back on cursive.
+* Dancing+Script: for headers mute message and fall back on cursive.
+
+
+#### **Colour Scheme**
+
+The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leaves.php)  to choose colors when building the website. Particularly, the follwoing colors were used which are bright to make the site more appealling to sight:
+
+ * #d32f2f (red color)
+ * #455a64  (blue-grey color)
+ * #263238  (blue-grey color )
+ * #ba68c8 (purple color)
+ * #69f0ae (green color)
+
+
+
+
+
+
