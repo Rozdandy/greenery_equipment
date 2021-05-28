@@ -296,15 +296,59 @@ The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/),
 
 
 
+### Toasts
+
+* These are snippets of messages that appear based on the action performed by customers.
+* The messages comes in four ways depending on the success or failure of the actoin done and they are:
+    * `toast_success`
+    * `toast_error` 
+    * `toast_warning` 
+    * `toast_info` 
+    
+* The primary aim of their appearance is to give feedback on the action a users performed which may include:
+
+  * logging in
+  * logging out
+  * adding a product to the shopping bag
+  * updating the shopping bag
+  * editing a blog post
+  * completing the checkout process
 
 
 
+###  Reviews app
+* It is only is available to registered/ authenticated users.
+* The user also has the option to edit or delete their review after they have submitted a review.
+* The rating options enables user to give a rating between 1 - 5 stars.
+
+[Review](readme/images/review.png)
 
 
 
+### Checkout App
+
+* The functionality of this app is to enable users to complete their online purchasing proceseses, that is to make complete online order and secured payment.
+* If user is authenticated, their profile delivery/shipping form will be pre-populated with their default 
+info else if the user is not authenticated the form will be empty
+* A summary of the products and cost of their purchases will be avaible on display next to the delivery/shipping form
+
+* Stripe secure card validation: the card entered by the user will be validated in real time by stripe and if valid:
+the purchase will go through and the user will be automatically redirected to success page showing order confirmation details
+* A webhook is implemented to the checkout so that the order is successfully processed in case the checkout process gets interrupted. Some reasons might be closing the browser too soon or losing internet connection.
+* Upon successful purchase: confirmation email is sent to the user, containing their order summary
+* Logged in buyers can also see their **order history** on the `profiles page`.
 
 
 
+### Blog app
 
+* The app updated with post on climate change and agricultural related issues, the activities on the app is mainly of sections which are:
+    * **Blog posts**: It displays short overview to all available blog posts and links to the details.
+    * **Blog detail**: It gives a full detail of a particular post and also displays the comment sections
+    * **Blog management**: Here, the admin has access to the blog management form to carry out CRUD activities whic include adding, editing and deleting blog posts.
+
+
+[blog](readme/images/add-blog.png)<br>
+[blog](readme/images/edit:delete-blog.png)
 
 
