@@ -69,15 +69,20 @@ The site owner aimed to provide customer e-commerce services to purchase items a
 | site-owner | add, edit and amend blog post when necessary                                        | maintain and coordinate the serenity of the sites.
 
 
+## The Scope Plane 
 
+Covid-19 is a game-changer, a hallmark of our present dispensation. Online shopping and sales has risen drasticallly in the last 2 years and this trend will continue for a while especially with globalisation. Thus the aim here is to build user-friendly website that is intuitive and easy to navigate.
 
+### Intended Features include:
 
-
-
-
-
-
-
+* Responsive design.
+* Intuitive and easy navigable website.
+* Mobile and desktop navigations.
+* Standard e-commerce feed of products with the option to sort products and filter them by price and category names. 
+* Every product details could be viewed by just clicking on it.
+* Blog post to inspire users, so that can be coming back for me.
+* To enable customers to leave a review on a particualr product.
+* Contact information to easily contact the store owner.
 
 
 
