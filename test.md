@@ -186,6 +186,9 @@ the provided email adddress with the necessary link for password recovery.
 
 
 
+### Python:
+* Validated my python file with inbuilt code institute gitpod python lint : there are still some lint line errors coming from the model character fields
+upon the use of both null and blank as True.
 
 
 MINEEEEEEEEEEEEEEE
@@ -216,6 +219,3 @@ MINEEEEEEEEEEEEEEE
       * Phones and Tabs: iPad Pro, different Iphone series and androids
 
 
-### Python:
-* Validated my python file with inbuilt code institute gitpod python lint : there are still some lint line errors coming from the model character fields
-upon the use of both null and blank as True.
