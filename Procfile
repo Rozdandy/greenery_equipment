@@ -1,1 +1,1 @@
-web: gunicorn greenery-equipment.wsgi:application
+web: gunicorn greenery_equipment.wsgi:application
