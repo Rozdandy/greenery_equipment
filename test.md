@@ -40,3 +40,45 @@ This site was was tested on multiple browsers (Google Chrome, Mozzila Firefox an
 
 
 
+### SHOP NOW BUTTON 
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `SHOP NOW` link | Opens and takes you to all products page | As expected | Pass |
+
+### Button "Go to top" 
+* It appears in the all products page and whereaver search is made both in large and small devices but not available in the blog section
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Go to top button | It scrolls up to top of the page | As Expected | Pass
+
+### Footer
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `Facebook` icon | Opens Facebook site in new tab | As expected | Pass |
+| Clicking on `Instagram` icon | Opens Instagram site in new tab | As expected | Pass |
+| Clicking on `linkedin` icon | Opens LinkedIn site in new tab | As expected | Pass |
+| Clicking on `Pinterest` icon | Opens Pinterest site in new tab | As expected | Pass |
+| Clicking on `SHOP` link | Opens and takes you to all products page | As expected | Pass |
+| Clicking on `BLOG` link | Opens dropdown with links | As expected | Pass |
+
+## Home App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on product cards | Opens the selected product detail | As expected | Pass |
+| Clicking on `SHOP NOW` link | Opens and takes you to all products page | As expected | Pass |
+
+
+## Products App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on filter button | Show products under that category | As Expected | Pass
+| Clicking on product | Show product details info on a new page | As Expected | Pass
+| Selecting the number in input and clicking "Add" | Adds the selected quantity of the item to cart and then opens "Shop" page |As Expected | Pass
+| Clicking on breadcrumbs `products home` button | Opens "All Products" page | As Expected | Pass
+| Clicking on nav menu link | Opens the appropriate web page | As expected | Pass |
+
