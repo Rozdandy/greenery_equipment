@@ -85,3 +85,31 @@ The deployment process was in two major steps and project cloning:
 5. It is important to note that:nthis command has to be run in the development(local) environment each time change is made in the static files/folder. This will enable the folder and files saved to AWS S3 bucket.
 
 
+
+*The project need to be clone locally through the following steps:*
+
+1. Browse the repository link [Greenery Equipment](https://github.com/Rozdandy/greenery_equipment) to clone the project by clicking the green Clone or download button and downloading the project to local computer and extracting it.
+2.  Or by entering the following into the Git CLI terminal: https://github.com/Rozdandy/africadelishms3.git
+3.	Open Githpod workspace, that is Git Bash.
+2. Open your Terminal : ensure that your current working directory is the location you want the clone directory to be in
+3. git clone : paste in the HTTPS url you copied
+4. ensure to check the requirements.txt for all the necessary dependencies you will need to install for the project
+
+   Use the following envronment variable
+
+    | Env Variable          | Value                      | Location      
+    |-----------------------|----------------------------|-----------------|
+    | DATABASE_URL          | your postgres url          | heroku          |
+    | DEVELOPMENT           | True                       | gitpod          |
+    | SECRET_KEY            | your django secret_key     | gitpod & heroku |
+    | STRIPE_PUBLIC_KEY     | your stripe public key     | gitpod & heroku |
+    | STRIPE_SECRET_KEY     | your stripe secret key     | gitpod & heroku |
+    | STRIPE_WH_SECRET      | your stripe webhook secret | gitpod & heroku |
+    | AWS_ACCESS_KEY_ID     | your aws access key        | gitpod & heroku |
+    | AWS_SECRET_ACCESS_KEY | your aws secret access key | gitpod & heroku |
+    | EMAIL_HOST_PASS       | your gmail host pass       | gitpod & heroku |
+    | EMAIL_HOST_USER       | your gmail host user       | gitpod & heroku |
+    | USE_AWS               | True                       | heroku          |                   
+
+6.  Navigate to the correct file location after unzipping the files and cd <path to folder>
+5. for further info on github cloning : [Github](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository).
