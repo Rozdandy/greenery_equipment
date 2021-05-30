@@ -24,7 +24,8 @@ body {
     -o-background-size: all .5s ease-in-out;
 
   }
-  
+
+ 
   .hero-text{
       background-color: #044E84;
       min-height: 500px;
@@ -323,7 +324,6 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 }
-
 
 
 

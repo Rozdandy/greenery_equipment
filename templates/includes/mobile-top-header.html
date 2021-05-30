@@ -1,13 +1,4 @@
 <li class="list-inline-item">
-
-
-    <a href="{% url 'home' %}" class="nav-link main-logo-link text-black nav-link d-block d-lg-none text-center">
-        <h5 class="logo-font text-black my-0"><strong class="my-0">Greenery</strong>Equip</h2>
-    </a>
-
-</li>
-
-<li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-search fa-lg"></i></div>
@@ -42,7 +33,7 @@
              <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
              <a href="{% url 'blog_add' %}" class="dropdown-item">Blog Management</a>
             {% endif %}
-            <a href="" class="dropdown-item">My Profile</a>
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}
             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
