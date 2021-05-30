@@ -16,7 +16,7 @@
     {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600&family=Lato:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -68,7 +68,7 @@
                       <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <div class="text-center">
                               <div><i class="fas fa-user fa-lg"></i></div>
-                              <p class="my-0">My Account</p>
+                              <p class="my-0 btn-cta2">My Account</p>
                           </div>
                       </a>
                       <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -114,7 +114,7 @@
         </nav>
     </div>
     <div id="delivery-banner" class="row text-center">
-        <div class="col bg-black text-white">
+        <div class="col bg-banner text-white">
             <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
         </div>            
     </div>

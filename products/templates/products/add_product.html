@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+<main>
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -33,13 +34,14 @@
                         {% endif %}
                     {% endfor %}
                     <div class="text-right">
-                        <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
-                        <button class="btn btn-black rounded-0" type="submit">Add Product</button>
+                        <a class="btn btn-outline-black logo-font rounded-0" href="{% url 'products' %}">Cancel</a>
+                        <button class="btn btn-black rounded-0 logo-font" type="submit">Add Product</button>
                     </div>
                 </form>
             </div>            
         </div>
     </div>
+    
 {% endblock %}
 
 {% block postloadjs %}

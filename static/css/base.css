@@ -25,7 +25,24 @@ body {
 
   }
 
+/* all buttons used in reviews*/
+.bg-banner,
+  .btn-cta{
+    background-color: #044E84;
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+  }
  
+
+  .btn-cta2{
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+  }
+
+  
   .hero-text{
       background-color: #044E84;
       min-height: 500px;
@@ -72,6 +89,8 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
 }
 
 .main-logo-link {
@@ -113,9 +132,10 @@ body {
     border: 1px solid black !important;
 }
 
-.bg-black {
-    background: #000 !important;
-}
+/* .bg-banner {
+    background: #044E84 !important;
+} */
+
 
 .overlay {
 	height: 100%;
