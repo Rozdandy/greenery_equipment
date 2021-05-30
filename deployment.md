@@ -77,7 +77,7 @@ The deployment process was in two major steps and project cloning:
     * pip3 install boto3
     * pip3 install django-storages
     * pip3 freeze >requirements.txt
-    * settings.py : added django-storages to installed apps
+    * settings.py: added django-storages to installed apps
     * settings.py: added an if statement to check if on heroku, it should use the aws bucket that will provide the bucket settings
     * From here, django will collectstatic files automatically and upload them to s3.
     * A custom storage class was created using s3boto3 storage class from django storages: to tell django to
