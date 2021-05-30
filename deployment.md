@@ -112,4 +112,4 @@ The deployment process was in two major steps and project cloning:
     | USE_AWS               | True                       | heroku          |                   
 
 6.  Navigate to the correct file location after unzipping the files and cd <path to folder>
-5. for further info on github cloning : [Github](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository).
+5. For further info on github cloning : [Github](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository).

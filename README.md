@@ -423,6 +423,42 @@ the purchase will go through and the user will be automatically redirected to su
 
 
 
+**References:**
+
+
+* Special thanks to Tim Nelson lecture videos, most of the codes on registeration, authorization, authentication many more assisted me in completing this project.
+
+
+## Media
+
+All of the images in the site were supplied from the sources below.
+
+* slider Image:
+    *   https://www.pikrepo.com/flrcm/lasagna-on-top-of-white-ceramic-plate
+    *   https://www.pikrepo.com/ftfhq/assorted-foods-on-table
+    *   https://www.pikrepo.com/nuzcs/local-thai-food-buffet
+    *   https://www.pikrepo.com/frive/roasted-steak-with-sliced-tomato-on-white-plate
+    *   https://www.pikrepo.com/fwlnm/cooked-food-on-plate
+    *   https://www.pikrepo.com/ffyyo/closeup-photo-of-cooked-food
+
+
+* This sites were sources of inspiration to me:
+
+
+**Miscellaneous**
+
+ * The lecture videos and notes
+ * [Stack overflow](https://stackoverflow.com/) To seek solutions to fix bugs.
+ * [W3Schools](https://www.w3schools.com/) I used this site for references in many instances.
+
+## Acknowledgements
+
+I received inspiration for this project from:
+
+* God for Mercies.
+* Code Institute lecture video
+* My mentor for advice and feedback.
+* Student care and student tutors for being there when I needed them most.
 
 
 
