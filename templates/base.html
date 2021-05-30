@@ -119,7 +119,7 @@
         </div>            
     </div>
   </header>
-
+  <main>
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -143,14 +143,15 @@
 
     {% block content %}
     {% endblock %}
-
+</main>
+  <!-- Footer -->
+  {% include 'includes/footer.html' %}
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
 
-    <!-- Footer -->
-    {% include 'includes/footer.html' %}
+  
   </body>
 </html>
