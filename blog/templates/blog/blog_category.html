@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-<div class="container header-container">
+<div class="container">
     <div class="row">
         <div class="col"></div>
     </div>
@@ -13,8 +13,8 @@
 <div class="overlay"></div>
 
 <!-- Blog categories-->
-<div class="container-fluid">
-    <div class="row-products">
+<div class="container my-5">
+    <div class="row  my-5">
         <div class="col text-center mt-3 mb-3 pb-1">
             <h2 class="logo-font">{{ category.title }}</h2>
             
@@ -23,17 +23,18 @@
     {% for post in category.posts.all %}
     <div class="row mt-4">
         <div class="col-8 offset-2">
-            <h3 class="blog-title mt-3">{{ post.title }}</h3>
+            <h3 class="blog-title-article mt-3">{{ post.title }}</h3>
         </div>
     </div>
+    
     <div class="row">
+        <div class="col-8 offset-2 blog-article">
+            <article>{{ post.overview }}</article>
+        </div>
+    </div>
+    <div class="row mt-3">
         <div class="col-8 offset-2">
             <div class="text-muted">{{ post.date_added | date:"d M, Y | h:i" }}</div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-8 offset-2">
-            <article>{{ post.overview }}</article>
         </div>
     </div>
     <div class="row pb-2 mt-3">
@@ -41,6 +42,7 @@
             <a href="{% url 'detail_post'  post.slug %}" class="read-text">Read more</a>
         </div>
     </div>
+    
     {% endfor %}
 </div>
 {% endblock %}
