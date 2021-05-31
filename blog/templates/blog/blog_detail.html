@@ -19,9 +19,9 @@
 
         <div class="row py-2 mt-5">
             <div class="text-center">
-                <h3 class="text-dark">{{ post.title }}</h3>
+                <h3 class="blog-title-article">{{ post.title }}</h3>
                 <p>{{ post.date_added | date:"d M - Y - h:i  "}} |  <a href="{% url 'category' post.category.slug %}"
-                        class="cat-title">{{ post.category.title }}</a></p>
+                        class="cate-title bold">{{ post.category.title }}</a></p>
             </div>
 
             <div class="row mt-2 py-5">
@@ -37,16 +37,16 @@
             </div>
 
             <article class="row mb-4 py-4">
-                <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+                <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 blog-article">
                     {{ post.article }}
                 </div>
             </article>
 
             {% if request.user.is_superuser %}
-            <small class="ml-3">
-                <a href="{% url 'edit_blog' post.slug %}">Edit</a> |
-                <a class="text-danger" href="{% url 'delete_blog' post.slug %}">Delete</a>
-            </small>
+            <p class="ml-5 right">
+                <a href="{% url 'edit_blog' post.slug %}">Edit</a>       
+                <a class="text-danger ml-3" href="{% url 'delete_blog' post.slug %}">Delete</a>
+            </p>
             {% endif %}
         </div>
 
@@ -64,9 +64,9 @@
             <div class=" medial-list col-sm-10 offset-sm-1 col-md-8 offset-md-2">
                 {% for comment in post.comments.all %}
                 <div class="article-comment">
-                    <img class="avatar avatar-sm mr-4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__240.png" alt="avatar">
+                    <img class="avatar avatar-sm mr-4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__240.png" alt="avatar" width="60px" height="60px" >
                     <div class="media-body">
-                        <div>
+                        <div class="my-3">
                             <strong>{{ comment.name }}</strong> | <small class="ml-4">{{ comment.date_added | date:"d M - Y - h:i "}}</small>
                         </div>
 
@@ -104,7 +104,5 @@
     </div>
 </section>
 
-
-<!--- Comment Section--->
 
 {% endblock %}

@@ -9,6 +9,7 @@ html {
 
 body {
     overflow-x: hidden;
+    position: relative;
 }
 
 .hero-image {
@@ -42,6 +43,37 @@ body {
     font-weight: 700;
   }
 
+  .blog-title{
+      color: #640E27;
+    text-align:center;
+    text-transform: none;
+    font-size: 1.1rem;
+    font-family: lato;
+
+  }
+  
+.blog-overview{
+    font-size: .8rem;
+    color: black;
+}
+
+
+.blog-title-article{
+    color: #640E27;
+  text-align:center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: lato;
+
+}
+
+.blog-article{
+    font-size: 1.3rem;
+    color: black;
+    text-align: justify;
+
+}
+
   
   .hero-text{
       background-color: #044E84;
@@ -72,7 +104,11 @@ body {
     color: whitesmoke;
     text-align: center;
 }
-
+/* headers */
+.bg-darrk2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
 
 
 
@@ -102,7 +138,7 @@ body {
     color: white;
     min-width: 260px;
 }
-
+.bg-darrk,
 .btn-black {
     background: black;
     color: white;
