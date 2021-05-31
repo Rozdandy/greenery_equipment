@@ -190,8 +190,6 @@ the provided email adddress with the necessary link for password recovery.
 upon the use of both null and blank as True.
 
 
-MINEEEEEEEEEEEEEEE
-
 
 # TESTING
 
@@ -200,7 +198,11 @@ MINEEEEEEEEEEEEEEE
 
 * **Lighthouse**:     [Balsamiq](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) To audit the site perfomance and accessibility.
 
+[lighthouse laptop](test/lighthouse.png) <br> [lighthouse mobile](test/mobil-lighthouse.png)
+
+
 * **Am I Responsive?**:[Am I Responsive?](http://ami.responsivedesign.is/) It was used to test the responsiveness of the site and to take screenshot of devices.
+[Am I Responsive?](crop-herotest.png)
 
 * [HTML-Validator](https://validator.w3.org/#validate_by_input"):   validator produced django template syntaxes as errors
 
@@ -216,5 +218,14 @@ MINEEEEEEEEEEEEEEE
       * Systems: Macbook Pro Laptop, HP laptop, and Lenovo laptop.
       * Browsers: Chrome, Opera, Edge, Firefox, Safari
       * Phones and Tabs: iPad Pro, different Iphone series and androids
+
+
+
+# Bugs
+ I came across some major bugs in last minute of deployment that i could not resolve. Amnong them is floating div, overlapping navbar ins small device, and sticking out of admin management form for products and blog
+
+[Floating signup form](test/crop-floatingdiv.png)
+
+[Floating signup form](test/crop-bugtest.png)
 
 

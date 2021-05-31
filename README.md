@@ -10,7 +10,6 @@
 [herokuApp](https://greenery-equipment.herokuapp.com/)
 
 
-
 # Greenery Equipment
 ---
 This project is online fictitious e-commerce store selling modern agricultural equipment in various categories, which provide farmers, government and investors to order online from the comfort of their homes, offices or farm yards. It also has the Blog section where users can read and comment on agricultural-climate change related news and posts.
@@ -23,7 +22,6 @@ This is a Full Stack Frameworks with Django and other libraries, the project was
 The website is an e-commerce shopping website. The store provides a distinct customer experience which includes some kind of user-friendly euphoria actions which afford individual customer of the website to review a particular product, view blog section and comment. The site also provide good responsive view for different devices and a well secured login, shopping and payment system.
 
 The aim of the site is to allow the user to create an account and make a purchase of products with Stripe secure payment system and also have a taste of the latest news on climate change and agriculure. Most of the admin activities is built on Django admin-allauth login integrated modules. The site also provides enabling user-friendly  tasks such as adding, editing and deleting products or blog posts through the website User Interface.
-
 
 # UX 
  ----
@@ -99,10 +97,6 @@ Covid-19 is a game-changer, a hallmark of our present dispensation. Online shopp
 
 
 
-
-
-
-
  ## The Skeleton Plane
 
  ### **Security**
@@ -117,7 +111,7 @@ Django allauth was used to set up user registration and built in decorators allo
 
 **View all**
 
- * [Wireframe](wireframe/ms4_wireframe.pdf)
+ * [Wireframe](wireframe/ms4_wireframe.pdf))
 
 
 ### **Database Design**
@@ -126,8 +120,7 @@ By default, Django works with SQL databases , thus the SQLite was used during th
 
 **View all**
 
- * [Database Schemer](toputdatabasehere)
-
+ * [Database Schemer](test/schematic.png)
 
 
 ## The Surface Plane
@@ -145,19 +138,12 @@ By default, Django works with SQL databases , thus the SQLite was used during th
 
 The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leaves.php)  to choose colors when building the website. Particularly, the follwoing colors were used which are bright to make the site more appealling to sight:
 
- * #d32f2f (red color)
- * #455a64  (blue-grey color)
- * #263238  (blue-grey color )
- * #ba68c8 (purple color)
- * #69f0ae (green color)
-
-
-
-
-
-
-
-
+ * black
+ * white
+ * #044E84;
+ * #dc3545;
+ * rgba(0, 73, 83, 0.9);
+ * #007bff
 
 
 # Features
@@ -181,9 +167,6 @@ The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leave
     * On smaller device, the search bar is collapsed under the search icon.
     * It allows customers to enter keywords associated with the products they wish to purchase.
     * The search results are displayed as a feed of products on `products` Django app products template.
-
-    ![search](readme/images/search-1.png)<br>
-    ![search](readme/images/search-2.png)
 
 
 * Footer section
@@ -209,8 +192,6 @@ The developer used [Schemecolor](https://www.schemecolor.com/floating-fall-leave
 * Admin account
 
     * Exclusvely available to the the site manager or administartor. It enables blog and products inventory. It aid access to the customers' orders, and user profiles . Majority of the information is stored in the Django admin site but the users can also do common tasks such as adding, editing and deleting products or blog posts through the site.
-
-
 
 
 
@@ -255,7 +236,9 @@ The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/),
     - Category (A-Z)
     - category (Z-A)
  
- 
+ * [Products](test/products.png))
+
+
   **product details**: clicking on a product;
 
     * Product description : here, the user can see the full description, full name, manufacurer of product etc.
@@ -271,25 +254,12 @@ The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/),
     - edit / update a product 
     - delete a product 
 
-
-
-
-
-[product](PUT_IMAGE_HERE)
-
-
-
-
 ### Profiles App
 
 * THis app is only available to registered, authenticated users.
 * It has the pre-filled users' information as a default of their shipping/delivery details on their profile page which will be used during their checkout to make it process faster.
 - a user can add, update and delete their personal info
 * Past order: a users profile page automatically save all their past order summary and confirmations
-
-
-
-
 
 
 ### Bag app
@@ -305,8 +275,6 @@ The [A Django project](https://docs.djangoproject.com/en/3.1/ref/applications/),
 
 
 [Shopping bag](readme/images/cart.png)
-
-
 
 
 ### Toasts
@@ -361,11 +329,7 @@ the purchase will go through and the user will be automatically redirected to su
     * **Blog management**: Here, the admin has access to the blog management form to carry out CRUD activities whic include adding, editing and deleting blog posts.
 
 
-[blog](readme/images/add-blog.png)<br>
-[blog](readme/images/edit:delete-blog.png)
-
-
-
+[blog](test/blog.png)
 
 
 #### Features Left to Implement:
@@ -378,11 +342,6 @@ the purchase will go through and the user will be automatically redirected to su
     * social media loggin
     * A wish-list feature that allows authenticated users to save items for later purchase.
     * A like and unlike feature on comment and review section indicate how many people have liked a certain piece of content and certain products.
-
-
-
-
-
 
 
 # **TECHNOLOGY USED**
@@ -407,7 +366,6 @@ the purchase will go through and the user will be automatically redirected to su
 * [Google fonts](https://fonts.google.com/) was used for the site fonts
 * [Font awesome](https://fontawesome.com/) was used for its icons 
 
-
 ### Back-End Technologies
 
     
@@ -426,10 +384,216 @@ the purchase will go through and the user will be automatically redirected to su
 * **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
 * **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
 
-
-
 * [Django](https://www.djangoproject.com/) – Django is 
 
+
+
+## TESTING
+
+
+## Device Responsivess
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Viewing on mobile device | Images filled correctly, no overflow | As Expected | Pass |
+| Viewing on tablet device | Pages rendering properly | As expected | Pass |
+| Viewing on laptop & desktop devices | All work well, no distortion | As expected | Pass |
+
+
+### Navigation performance
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Logo button | Opens "Index" page | As Expected | Pass |
+| Clicking on `My account` link | Opens dropdown tab with links | As expected | Pass |
+| Clicking on `log In` link | Opens Log In page | As expected | Pass |
+| Clicking on `log Out` link | Logs out user and redirects to log in page | As expected | Pass |
+| Clicking on `Register` link | Opens Register page | As expected | Pass |
+| Clicking on `Shopping bag icon` link | Opens the page links | As expected | Pass |
+| Clicking on `GO TO BLOG` link | Opens dropdown with links | As expected | Pass |
+| Clicking on `ALL PRODUCTS` link | Opens dropdown with links | As expected | Pass |
+| Clicking on `MACHINE EQUIPMENT` link | Opens dropdown with links | As expected | Pass |
+| Clicking on `FARM IMPLEMENT` link | Opens dropdown with links | As expected | Pass |
+| Clicking on `MISCELLANEOUS` link | Opens dropdown with links | As expected | Pass |
+| Clicking on nav menu link | Opens the appropriate web page | As expected | Pass |
+
+
+### SHOP NOW BUTTON 
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `SHOP NOW` link | Opens and takes you to all products page | As expected | Pass |
+
+### Button "Go to top" 
+* It appears in the all products page and whereaver search is made both in large and small devices but not available in the blog section
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Go to top button | It scrolls up to top of the page | As Expected | Pass
+
+### Footer
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `Facebook` icon | Opens Facebook site in new tab | As expected | Pass |
+| Clicking on `Instagram` icon | Opens Instagram site in new tab | As expected | Pass |
+| Clicking on `linkedin` icon | Opens LinkedIn site in new tab | As expected | Pass |
+| Clicking on `Pinterest` icon | Opens Pinterest site in new tab | As expected | Pass |
+| Clicking on `SHOP` link | Opens and takes you to all products page | As expected | Pass |
+| Clicking on `BLOG` link | Opens dropdown with links | As expected | Pass |
+
+## Home App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on product cards | Opens the selected product detail | As expected | Pass |
+| Clicking on `SHOP NOW` link | Opens and takes you to all products page | As expected | Pass |
+
+
+## Products App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on filter button | Show products under that category | As Expected | Pass
+| Clicking on product | Show product details info on a new page | As Expected | Pass
+| Selecting the number in input and clicking "Add" | Adds the selected quantity of the item to cart and then opens "Shop" page |As Expected | Pass
+| Clicking on breadcrumbs `products home` button | Opens "All Products" page | As Expected | Pass
+| Clicking on nav menu link | Opens the appropriate web page | As expected | Pass |
+
+## Comments App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `Add comment` button without filling all the forms | Displays Validation to tell the user to enter all the forms | As Expected | Pass |
+| Clicking on `Add comment` | the message is added | As Expected | Pass
+
+## Bag & Checkout/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| When no items in shopping bag, clicking on `Bag icon` button | Shows 'Your bag is empty' & "Keep Shopping" page | As Expected | Pass
+| Adding & removing quantity | change of quantity of products "shopping bag items" toast snippet displays message of either add or remove. If quantity changed to zero, removes product from bag | As Expected | Pass
+| Clicking on products image and/or name | Displays that products detail page | As Expected | Pass
+| Clicking on `Secure Checkout` button | Opens "Chekout" page | As Expected | Pass
+| Clicking on `Secure Checkout` button without filling the form | Redirects user to required field | As Expected | Pass
+| Clicking on `Adjust bag` button while filling out the form | Redirects user to shopping bag | As Expected | Pass
+| Clicking on `Complete Order` button after filling out the form | Checks with Stripe if everything is ok and redirects to "order summary with Thank you message" page | As Expected | Pass
+
+## Reviews
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `Submit` button without filling all the form fields | Displays Validation to tell the user to enter all the fields | As Expected | Pass |
+| After clicking on ``Submit`` button | User is redirected to "Products" page, with review now sucessfully added | As Expected | Pass |
+| Clicking on `Edit` symbol | User is redirected to "Edit your review" modal pre-filled with instance of previous comment | As Expected | Pass |
+| Clicking on `Delete` symbol | user is directed to modal to delete their review | As Expected | Pass |
+
+## Account
+
+### Registration
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `Register` button | Registers the user and redirects to confirm email address. If registration form is incomplete, shows Please fill out this field | As Expected | Pass
+
+### Sign in
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `LogIn` with correct username and password | Directs user to the index page | As Expected | Pass |
+| Clicking on `LogIn` with Incorrect username and password | flash message to user showing incorrect username or password | As Expected | Pass |
+| Clicking on Forgot password | Opens "Forgot password" page | As Expected | Pass
+
+### Profile App/ page
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on profile button | Opens "profile" page |As Expected | Pass
+| Clicking on `Update` button | Saves changes to profile and redirects to "Profile" page | As Expected | Pass
+
+
+### Log Out
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on `log Out` button | Logs out user and redirects to index page | As expected | Pass |
+
+
+
+#### User story testing:
+MOre on Testing user experience:
+
+1. Authenticated and Unauthenticated users:
+
+  * user: can  browse the site by sorting, category or price, or by rating and make a selection to buy
+  * user : can use the search icon to look for products they like
+  * user: can view each product details to identify price, read other users reviews on the product,select a product
+  size or quantity
+  * user : can easily access products on sale and keep track of their total shopping bag cost throughout the site via their shopping bag
+  * user: can make easy and secure stripe checkout processes.
+  * user: upon successful checkout, will be gets redirected to success page with order details and a confirmation email is also sent to them containing their order details.
+
+2. Sign-up / Login:
+
+  * user: can successfully sign up for an account by filling the the required form fields and will recieve a confirmation email
+  * user: users can successfully recover their passwords by clicking on the forgot password: which will send an email to
+the provided email adddress with the necessary link for password recovery.
+
+
+3. Logged in / authenticated users: 
+
+  * user: authenticated users can save their default delivery/billing info on their profile page
+  * user: authenticated users can add to blog post when they visit a particular post
+  * user: logged in users can review products that they have bought
+
+1. Site Owner:
+
+  * can easily add a product via the product management form 
+  * can easily add a blog post via the blog management form 
+  * can easily edit/update product info
+  * can easily delete products
+
+
+### Python:
+* Validated my python file with inbuilt code institute gitpod python lint : there are still some lint line errors coming from the model character fields
+upon the use of both null and blank as True.
+
+
+
+# TESTING
+
+#### Validating  HTML, CSS and JavaScript and Python/django:
+
+
+* **Lighthouse**:     [Balsamiq](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) To audit the site perfomance and accessibility.
+
+[lighthouse laptop](test/lighthouse.png) <br> [lighthouse mobile](test/mobil-lighthouse.png)
+
+
+* **Am I Responsive?**:[Am I Responsive?](http://ami.responsivedesign.is/) It was used to test the responsiveness of the site and to take screenshot of devices.
+[Am I Responsive?](crop-herotest.png)
+
+* [HTML-Validator](https://validator.w3.org/#validate_by_input"):   validator produced django template syntaxes as errors
+
+* [Jshint](https://jshint.com/): When using the tool some warnings were flagged which mainly were the use of ES6 (use 'esversion: 6'). But the codes work perfectly. However, I have taken note of that for next project. [Javascript test](static/testing/jsms3.png).
+
+* The [CSS validator](https://jigsaw.w3.org/css-validator/) was without any issues [CSS test](static/testing/cssms3.png).
+
+* The [PEP8](http://pep8online.com/checkresult) was without any issues [PEP8 test](static/testing/pep8.png).
+
+#### Compatability Test :
+##### i used the following browsers the test the project:
+
+      * Systems: Macbook Pro Laptop, HP laptop, and Lenovo laptop.
+      * Browsers: Chrome, Opera, Edge, Firefox, Safari
+      * Phones and Tabs: iPad Pro, different Iphone series and androids
+
+# Bugs
+ I came across some major bugs in last minute of deployment that i could not resolve. Amnong them are floating div, overlapping navbar ins small device, and sticking out of admin management form for products and blog
+
+[Floating signup form](test/crop-floatingdiv.png)
+
+[Floating signup form](test/crop-bugtest.png)
 
 
 
@@ -438,21 +602,28 @@ the purchase will go through and the user will be automatically redirected to su
 
 **References:**
 
-
-* Special thanks to Tim Nelson lecture videos, most of the codes on registeration, authorization, authentication many more assisted me in completing this project.
-
-
 ## Media
 
 All of the images in the site were supplied from the sources below.
 
-* slider Image:
-    *   https://www.pikrepo.com/flrcm/lasagna-on-top-of-white-ceramic-plate
-    *   https://www.pikrepo.com/ftfhq/assorted-foods-on-table
-    *   https://www.pikrepo.com/nuzcs/local-thai-food-buffet
-    *   https://www.pikrepo.com/frive/roasted-steak-with-sliced-tomato-on-white-plate
-    *   https://www.pikrepo.com/fwlnm/cooked-food-on-plate
-    *   https://www.pikrepo.com/ffyyo/closeup-photo-of-cooked-food
+*  Image:
+    *   https://www.pikrepo.com/
+    * pexels.com
+    * https://pixabay.com/
+
+*  Article in blog and Images taken from image links below:
+* Read more: https://www.newscientist.com/article/2277877-major-2015-wildfires-in-central-amazon-killed-a-quarter-of-vegetation/#ixzz6wLSOio9e
+
+* Read more: https://www.newscientist.com/article/2277877-major-2015-wildfires-in-central-amazon-killed-a-quarter-of-vegetation/#ixzz6wLSjQjo1
+
+* Read more: https://www.newscientist.com/article/mg25033340-800-the-nitrogen-emergency-how-to-fix-our-forgotten-environmental-crisis/#ixzz6wLgJluVG
+
+* Read more: https://www.newscientist.com/article/mg25033340-800-the-nitrogen-emergency-how-to-fix-our-forgotten-environmental-crisis/#ixzz6wLgBTuay
+
+* Read more: https://www.newscientist.com/article/mg25033312-800-climate-change-in-graphics-the-charts-that-show-we-must-act-now/#ixzz6wLVytO3C
+
+* Read more: https://www.newscientist.com/article/2277863-climate-change-meant-hurricane-sandy-caused-8-billion-more-damage/#ixzz6wLU7gR6P
+
 
 
 * This sites were sources of inspiration to me:
@@ -463,7 +634,10 @@ All of the images in the site were supplied from the sources below.
  * The lecture videos and notes
  * [Stack overflow](https://stackoverflow.com/) To seek solutions to fix bugs.
  * [W3Schools](https://www.w3schools.com/) I used this site for references in many instances.
+ * https://github.com/Teemamin/spice_ur_look
+ * https://github.com/Teemamin/spice_ur_look
 
+ 
 ## Acknowledgements
 
 I received inspiration for this project from:
