@@ -115,7 +115,6 @@ body {
 }
 
 
-
   /* styling from lecture video */
 
 /* from Bulma */
@@ -171,7 +170,6 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
-
 
 
 .overlay {
@@ -430,7 +428,6 @@ input[name='q']::placeholder {
 }
 
 
-
 /*--------------------footer-------------*/
 footer {
     background-color: #044E84;
@@ -494,7 +491,6 @@ footer .contacts {
     padding-left: 5px;
     text-transform: uppercase;
 }
-
 
 .foot-links-container{
     margin-top: 16px;

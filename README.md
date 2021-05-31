@@ -1,15 +1,13 @@
-<img src="static/testing/test.png">
+<img src="test/crop-herotest.png">
 
 
 ### **Website links:** 
-
-*my github link*: [Rozdandy](https://github.com/Rozdandy/africadelishms3)
+*my github link*: [Rozdandy](https://github.com/Rozdandy/greenery_equipment)
 
 
 *Website Link*:
 
-[Afric & delish](https://afric-delish.herokuapp.com/)
-
+[herokuApp](https://greenery-equipment.herokuapp.com/)
 
 
 
