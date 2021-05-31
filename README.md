@@ -1,3 +1,18 @@
+<img src="static/testing/test.png">
+
+
+### **Website links:** 
+
+*my github link*: [Rozdandy](https://github.com/Rozdandy/africadelishms3)
+
+
+*Website Link*:
+
+[Afric & delish](https://afric-delish.herokuapp.com/)
+
+
+
+
 # Greenery Equipment
 ---
 This project is online fictitious e-commerce store selling modern agricultural equipment in various categories, which provide farmers, government and investors to order online from the comfort of their homes, offices or farm yards. It also has the Blog section where users can read and comment on agricultural-climate change related news and posts.
